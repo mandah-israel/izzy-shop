@@ -4,8 +4,8 @@ import App from "./App.tsx";
 import "./index.css";
 import {
   createBrowserRouter,
-  createRoutesFromElements,
-  Route,
+  // createRoutesFromElements,
+  // Route,
   RouterProvider,
 } from "react-router-dom";
 import Home from "./Pages/Home"
