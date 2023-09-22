@@ -13,6 +13,8 @@ import spi from"../../src/Images/spi.jpg"
 import short from"../../src/Images/short.jpg"
 import fix from"../../src/Images/fix.jpg"
 import{Star} from"@phosphor-icons/react"
+import { Link } from "react-router-dom";
+
 
 const New=()=>{
     return(
@@ -23,7 +25,7 @@ const New=()=>{
         </div>
         <div className="pro-con">
           <div className="pro">
-            <a href="/ayo"><img src={ayo} alt="" /></a>
+            <Link to="/ayo"><img src={ayo} alt="" /></Link>
             <h3>BLUSH ROSE NEO CROP SWEAT SHIRT</h3>
             <Star size={20} />
             <Star size={20} />
@@ -33,7 +35,7 @@ const New=()=>{
             <h5>$170.40</h5>
           </div>
           <div className="pro">
-            <a href="/coll"><img src={coll} alt="" /></a>
+            <Link to="/coll"><img src={coll} alt="" /></Link>
             <h3>GO TO CREW,WHITE TENNIS GRAPHIC</h3>
             <Star size={20} />
             <Star size={20} />
@@ -43,7 +45,7 @@ const New=()=>{
             <h5>$130.40</h5>
           </div>
           <div className="pro">
-            <a href="/gill"><img src={gill} alt="" /></a>
+            <Link to="/gill"><img src={gill} alt="" /></Link>
             <h3>BASIC CREW, NECK TEE, NORTH SHORE</h3>
             <Star size={20} />
             <Star size={20} />
@@ -53,7 +55,7 @@ const New=()=>{
             <h5>$140.10</h5>
           </div>
           <div className="pro">
-            <a href="/fix"><img src={fix} alt="" /></a>
+            <Link to="/fix"><img src={fix} alt="" /></Link>
             <h3>VENUS TANK, ROSE BLACK</h3>
             <Star size={20} />
             <Star size={20} />
@@ -63,7 +65,7 @@ const New=()=>{
             <h5>$310.80</h5>
           </div>
           <div className="pro">
-            <a href="/tip"><img src={tip} alt="" /></a>
+            <Link to="/tip"><img src={tip} alt="" /></Link>
             <h3>AUDUREY WIDE LEG PANTS, ROSE BLACK</h3>
             <Star size={20} />
             <Star size={20} />
@@ -73,7 +75,7 @@ const New=()=>{
             <h5>$190.40</h5>
           </div>
           <div className="pro">
-            <a href="/till"><img src={till} alt="" /></a>
+            <Link to="/till"><img src={till} alt="" /></Link>
             <h3>BOMBER JACKET, ANTRACITE</h3>
             <Star size={20} />
             <Star size={20} />
@@ -83,7 +85,7 @@ const New=()=>{
             <h5>$160.30</h5>
           </div>
           <div className="pro">
-            <a href="/uper"><img src={uper} alt="" /></a>
+            <Link to="/uper"><img src={uper} alt="" /></Link>
             <h3>ANTRACITE JET SETTERS</h3>
             <Star size={20} />
             <Star size={20} />
@@ -93,7 +95,7 @@ const New=()=>{
             <h5>$180.20</h5>
           </div>
           <div className="pro">
-            <a href="/vex"><img src={vex} alt="" /></a>
+            <Link to="/vex"><img src={vex} alt="" /></Link>
             <h3>SANTORINI HIGH WAISTED SWIM SKIRT</h3>
             <Star size={20} />
             <Star size={20} />
@@ -103,7 +105,7 @@ const New=()=>{
             <h5>$100.50</h5>
           </div>
           <div className="pro">
-            <a href="/snick"><img src={snick} alt="" /></a>
+            <Link to="/snick"><img src={snick} alt="" /></Link>
             <h3>BLACK WINDOW PANE BOW BELT CAPRI</h3>
             <Star size={20} />
             <Star size={20} />
@@ -113,7 +115,7 @@ const New=()=>{
             <h5>$150.50</h5>
           </div>
           <div className="pro">
-            <a href="/suit"><img src={suit} alt="" /></a>
+            <Link to="/suit"><img src={suit} alt="" /></Link>
             <h3>ROSE BLACK BOMBER JACKET</h3>
             <Star size={20} />
             <Star size={20} />
@@ -123,7 +125,7 @@ const New=()=>{
             <h5>$40.50</h5>
           </div>
           <div className="pro">
-            <a href="/spi"><img src={spi} alt="" /></a>
+            <Link to="/spi"><img src={spi} alt="" /></Link>
             <h3>THE COCO LONG SLEEVE BLACK-WHITE</h3>
             <Star size={20} />
             <Star size={20} />
@@ -133,7 +135,7 @@ const New=()=>{
             <h5>$140.50</h5>
           </div>
           <div className="pro">
-            <a href="/short"><img src={short} alt="" /></a>
+            <Link to="/short"><img src={short} alt="" /></Link>
             <h3>BLACK BERMUDA SHORTS</h3>
             <Star size={20} />
             <Star size={20} />

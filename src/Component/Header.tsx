@@ -2,6 +2,7 @@ import albion from "../../src/Images/albion.png";
 import { X } from "@phosphor-icons/react";
 import { List } from "@phosphor-icons/react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   const [closed, setClosed] = useState(true);
@@ -10,16 +11,16 @@ export default function Header() {
       <img src={albion} alt="" />
       <ul id="nav" className={`nav-open ${closed? "nav-hidden" : "nav-show"}`}>
         <li>
-          <a href="/home">Home</a>
+          <Link to="/home">Home</Link>
         </li>
         <li>
-          <a href="/new">New</a>
+          <Link to="/new">New</Link>
         </li>
         <li>
-          <a href="/accessories">Accessories</a>
+          <Link to="/accessories">Accessories</Link>
         </li>
         <li>
-          <a href="/stores">Stores</a>
+          <Link to="/stores">Stores</Link>
         </li>
         <div id="times"></div>
       </ul>

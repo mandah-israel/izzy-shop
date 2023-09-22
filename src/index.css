@@ -63,7 +63,7 @@
 }
 .div svg{
     padding-top:12px;
-    color:yellowgreen;
+    color:grey;
 }
 #sow span{
     font-size:20px;
@@ -89,7 +89,7 @@
     font-size:20px;
     font-weight: bolder;
     color:white;
-    background-color:lightgrey;
+    background-color:grey;
     letter-spacing:4px;
     border:none;
     cursor:pointer;
@@ -99,7 +99,7 @@
     font-size:17px;
 }
 #sow p a{
-    color:lightgrey;
+    color:grey;
 }
 #smart h1{
     text-align:center;
@@ -116,13 +116,13 @@
     margin:0 50px;
 }
 .pro svg{
-    color:yellowgreen;
+    color:grey;
 }
 .pro-con .pro{
     height:25vh;
     width:250px;
     position:relative;
-    margin:80px;
+    margin:87px;
 }
 .bella{
     margin:150px 0;
@@ -135,11 +135,11 @@
 
 .pro img{
     width:100%;
-    box-shadow:7px 8px 10px grey;
+    box-shadow:4px 3px 1px grey;
 }
 
 .pro span{
-    color:white;
+    color:black;
     background-color:grey;
     padding:10px 15px;
     font-size:16px;
@@ -153,6 +153,9 @@
     margin:5px 0;
     font-size:18px;
     font-weight:bolder;
+}
+.pro h3{
+    margin-top:12px;
 }
 #vere{
     display:flex;
@@ -241,7 +244,7 @@
     margin-top:50px;
 }
 .het #swell{
-  background-color:lightgrey;
+  background-color:grey;
   line-height:60px;
   padding-left:20px;
   padding-top:15px;
@@ -262,12 +265,17 @@
     flex-direction:column;
     font-size:18px;
     cursor:pointer;
+    color:black;
 }
 #swell p{
     font-size:17px;
 }
 .het img{
     width:30%;  
+    height:62vh;
+}
+.score img{
+    height:45vh;
 }
 /*City*/
 #img img{
@@ -276,7 +284,7 @@
     object-fit:cover;
 }
 .drill #swell{
-  background-color:lightgrey;
+  background-color:grey;
   line-height:55px;
   padding-left:20px;
   padding-top:15px;
@@ -296,7 +304,7 @@
 /*media query*/
 @media(max-width:1440px){
     #bin .header{
-        width:150%; 
+        width:100%; 
         padding:30px 5%;
         height:19vh;
     }
@@ -325,12 +333,12 @@
         align-items:flex-start;
         flex-direction:column;
         line-height:80px;
-        background-color:white;
+        background-color:whitesmoke;
         padding:10px 10px;
         position:fixed;
         top:0;
         width:100%;
-        height:50vh;
+        height:85vh;
     }
 
     /* override nav position */
@@ -378,8 +386,8 @@
 
     /*Home*/
     #bin .div{
-        height:100vh;
-        line-height:85px;
+        height:108vh;
+        line-height:70px;
         margin:50px 0;
         width:100%;
     }
@@ -427,7 +435,7 @@
         height:25vh;
         width:180px;
         position:relative;
-        margin:70px;
+        margin:90px;
     }
     .pro-con h3,h5{
         font-size:13px;
@@ -512,12 +520,12 @@
       }
       /*City*/
       .het #fish{
-        width:70%;
+        width:90%;
         height:80vh;
         object-fit:cover;
       }
       .drill #swell{
-        width:70%;
+        width:90%;
         height:100vh;  
       }
       .goat #swell{
@@ -556,23 +564,26 @@
     }
     .pro-con .pro{
         height:25vh;
-        width:45%;
+        width:40%;
         position:relative;
-        margin:90px;
+        margin:90px ;
     }
     .bella .pro{
         width:45%;
         height:20vh;
-        margin:90px;
+        margin:90px ;
         display:flex;
-        flex-direction:column;
+        flex-wrap:wrap;
+    }
+    #sow{
+      padding-right:25%;
     }
     .het #swell{
-        background-color:lightgrey;
+        background-color:gray;
         line-height:60px;
         padding-left:20px;
         padding-top:15px;
-        width:70%;
+        width:90%;
         height:40vh;  
       }
       .goat #swell{
@@ -612,7 +623,7 @@
       }
     #bin .div{
         flex-direction:column;
-        height:120vh;
+        height:138vh;
         line-height:38px;
         padding:0 20px;
         margin:58px 0;
@@ -630,7 +641,7 @@
     font-size:13px;
    }
    #sow button{
-    padding:18px 45px;
+    padding:18px 20px;
     font-size:13px;
 }
 #sow p{
@@ -782,16 +793,18 @@
         .pro-con .pro{
             height:25vh;
             width:250px;
-            margin: 70px;
+            margin: 90px 0;
         }
     }
     @media(max-width:393px){
         .pro-con .pro{
             height:25vh;
             width:200px;
-            position:relative;
-            margin:80px;
+            margin:80px 0;
         } 
+        #bin .div{
+            height:140vh;
+        }
         #bar svg{
             width:35px;
         }
@@ -810,7 +823,7 @@
           }
     }
 
-@media(max-width:280px){
+@media(max-width:280px) {
     .footer svg{
         width:15px;
     }
@@ -826,12 +839,29 @@
         position:relative;
         margin:50px;
     }
-    #sow button{
-        padding:18px 20px;
+    .div svg{
+        padding-top:21px;
+        width:13px;
+    }
+    
+    #sow span{
+        font-size:10px;
+    }
+    #sow h2{
         font-size:13px;
+    }
+    #sow h3{
+        font-size:12px;
+    }
+    #sow button{
+        padding:15px 6px;
+        font-size:10px;
+        display:inline-block;
     } 
+    
     #bin .div{
         height:135vh;
+        line-height:35px;
     }
     #swell a button{
         font-size:10px;
@@ -848,8 +878,6 @@
       }
       .polu #swell{
         height:79vh;
-      }
-}
-
-
-
+      } 
+    }  
+   

@@ -15,6 +15,7 @@ import vere from "../../src/Images/vere.jpg"
 import swim from "../../src/Images/tip.jpg"
 import tip from "../../src/Images/swim.jpg"
 import vot from "../../src/Images/vot.jpg"
+import { Link } from "react-router-dom";
 
 
 const Home=()=>{
@@ -32,7 +33,7 @@ const Home=()=>{
           <span>38,000+ 5 Star Reviews</span>
           <h2>LABOR DAY SALE</h2>
           <h3>20% OFF SITEWIDE</h3>
-          <a href="/new"><button>SHOP SALE</button></a>
+          <Link to="/new"><button>SHOP SALE</button></Link>
           <p>Labor Day sale Some exclusives. <a href="">click here details</a></p>
           </div>
         </div>
